@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2332ff91-de05-4107-8634-ebe22dae2639" name="Changes" comment="aloitus: arraylist &gt; hashmap" />
+    <list default="true" id="2332ff91-de05-4107-8634-ebe22dae2639" name="Changes" comment="aloitus+">
+      <change afterPath="$PROJECT_DIR$/src/Asiakas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KantaAsiakas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Myyja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ostotapahtuma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tuote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Verkkokauppa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VerkkokauppaUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VirtuaalinenTuote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop-demo3-esimerkit/Verkkokauppa.java" beforeDir="false" afterPath="$PROJECT_DIR$/oop-demo3-esimerkit/Verkkokauppa.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,9 +36,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/simol/oop_demo3a/src",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\simol\oop_demo3a\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,11 +63,18 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1677275128331</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="aloitus+">
+      <created>1677275387365</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1677275387365</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aloitus: arraylist &gt; hashmap" />
-    <option name="LAST_COMMIT_MESSAGE" value="aloitus: arraylist &gt; hashmap" />
+    <MESSAGE value="aloitus+" />
+    <option name="LAST_COMMIT_MESSAGE" value="aloitus+" />
   </component>
 </project>
