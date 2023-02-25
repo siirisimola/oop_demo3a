@@ -1,31 +1,31 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 
-//muista kommentit!!
-
 public class Verkkokauppa {
+    //arraylistin tilalle hashmap
     private HashMap<String, Asiakas> asiakkaat;
     private HashMap<String, Tuote> tuotteet;
     private HashMap<String, Myyja> myyjat;
     private ArrayList<Ostotapahtuma> tapahtumat;
 
     public Verkkokauppa() {
-        asiakkaat = new ArrayList<>();
-        tuotteet = new ArrayList<>();
-        myyjat = new ArrayList<>();
+        //myös tänne Arraylist > hashmap
+        asiakkaat = new HashMap<>();
+        tuotteet = new HashMap<>();
+        myyjat = new HashMap<>();
         tapahtumat = new ArrayList<>();
     }
-
+    //seuraaviin metodeihin pitää muuttaa hashmappeihin sopivat koodit
     public void lisaaAsiakas(Asiakas asiakas) {
-        asiakkaat.add(asiakas);
-    }
+        asiakkaat.put(Asiakas, asiakas);
+    }  //mikä se key on??
 
     public void lisaaTuote(Tuote tuote) {
-        tuotteet.add(tuote);
+        tuotteet.put(tuote);
     }
 
     public void lisaaMyyja(Myyja myyja) {
-        myyjat.add(myyja);
+        myyjat.put(myyja);
     }
 
     public void lisaaTapahtuma(Ostotapahtuma tapahtuma) {
